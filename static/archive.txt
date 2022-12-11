@@ -1,0 +1,13 @@
+   <style>
+      .img1 {{
+        border: "1px solid rgb(15, 15, 15)",
+        borderRadius: "15px",
+        padding: "2px",
+        width: "150px"
+      }}
+      .button1 {{
+        backGroundColor: "#008CBA",
+        fontSize: "17px",
+        borderRadius: "10px"
+      }}
+    </style>

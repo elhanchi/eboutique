@@ -1,0 +1,27 @@
+.img1 {
+    border: 1px solid #e2c93c;
+    border-radius: 15px;
+    padding: 5px;
+    width: 150px;
+  }
+  .img2 {
+    border: 1px solid #0097ee;
+    border-radius: 15px;
+    padding: 5px;
+    width: 150px;
+  }
+  .button1 {
+    background-color: #e2c93c;
+    font-size: 25px;
+    border-radius: 10px;
+  }
+  .button2 {
+    background-color: #e2e2e2;
+    font-size: 25px;
+    border-radius: 10px;
+  }
+  .button3 {
+    background-color: #ffffff;
+    font-size: 25px;
+    border-radius: 10px;
+  }
