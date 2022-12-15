@@ -25,8 +25,6 @@ const manifest = {
     "./routes/_middleware.ts": $2,
     "./routes/a.tsx": $3,
     "./routes/api/joke.ts": $4,
-    "./routes/details%20copy/1.tsx": $5,
-    "./routes/details%20copy/2.tsx": $6,
     "./routes/details/1.tsx": $7,
     "./routes/details/2.tsx": $8,
     "./routes/index.tsx": $9,
