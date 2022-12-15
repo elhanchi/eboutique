@@ -10,10 +10,10 @@ export async function handler(
   const path = url.pathname 
   const fileExtension = extname(path); 
   if(path.startsWith("/spa" ) && !fileExtension){
-    const textHtml =  Deno.readTextFileSync(`${Deno.cwd()}/static/index.html`)
+    const textHtml =  Deno.readTextFile(`${Deno.cwd()}/static/index.html`)
     const headers = new Headers()
     headers.set("content-type","text/html;charset=UTF-8")
-    const resp = new Response( textHtml);
+    const resp = new Response( await textHtml);
     resp.headers.set("content-type","text/html;charset=UTF-8")
     return resp;
   }else{
