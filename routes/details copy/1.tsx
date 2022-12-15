@@ -1,5 +1,4 @@
 import { Head } from "$fresh/runtime.ts";
-import NavBar from "../../islands/NavBar.tsx";
 
 export default function Details() {
     return (<>
@@ -17,7 +16,19 @@ export default function Details() {
 
         </Head>
         <section>
-        <div><NavBar /></div>
+            <div class="collapse" id="navbarToggleExternalContent">
+                <div class="bg-dark p-4">
+                    <div className="btn"></div>
+                    <span class="text-muted">Toggleable via the navbar brand.</span>
+                </div>
+            </div>
+            <nav class="navbar navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </nav>
             <div class="row row-cols-1 row-cols-md-2">
                 <div class="col">
                     <div class="container my-5">
@@ -30,13 +41,13 @@ export default function Details() {
 
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="/a.png" alt="Los Angeles" class="d-block w-100" />
+                                    <img src="a.png" alt="Los Angeles" class="d-block w-100" />
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="/a.png" alt="Chicago" class="d-block w-100" />
+                                    <img src="a.png" alt="Chicago" class="d-block w-100" />
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="/a.png" alt="New York" class="d-block w-100" />
+                                    <img src="a.png" alt="New York" class="d-block w-100" />
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
