@@ -1,0 +1,1 @@
+import{A as e}from"./AddArticleUI.45beee30.js";import{d as t,c as a,a as o,b as r,o as c}from"./index.9672c944.js";const s=r("h1",null," actualiser un article :",-1),p=t({__name:"UpdateArticle",setup(n){return(l,d)=>(c(),a("div",null,[s,o(e)]))}});export{p as default};

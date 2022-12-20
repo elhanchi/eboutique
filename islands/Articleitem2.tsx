@@ -1,16 +1,17 @@
 export default function ArticleItem2() {
-    return <div class="col">
-        <div class="card border-primary">
-            <div class="row row-cols-2">
-                <div class="col">
-                    <img src="a.png" class="img2" alt="" /></div>
-                <div class="col">
-                    <div class="card-body">
-                        <a href="details/1" class="button2"> details 1</a>
-                        <p class="card-text">Corolla Toyota</p>
-                        <h5 class="card-title">3.2M MRU</h5>
-                    </div></div></div>
-        </div>
-    </div>
+    return(
+        <a href="details/1">
+            <button class="butt2" >
+                <div class="v">
+                    <div class="img">
+                        <img src="a.png" class="img1" alt="" />
+                    </div>
+
+                    <div class="annonce">
+                        <div class="titre">Corolla Toyota</div>
+                        <div class="prix">3.2M MRU</div>
+                    </div>
+                </div></button></a>
+    )
 
 }

@@ -3,6 +3,7 @@ import ArticleItem from "../islands/ArticleItem.tsx";
 import ArticleItem2 from "../islands/Articleitem2.tsx";
 import ArticleItem3 from "../islands/Articleitem3.tsx";
 import NavBar from "../islands/NavBar.tsx";
+import Nav_bar from "../islands/Nav_bar.tsx";
 
 export default function Home() {
   return (
@@ -21,10 +22,10 @@ export default function Home() {
 
       </Head>
       <section>
-        <div><NavBar /></div>
+        <div><Nav_bar /></div>
         
-        <div class="container my-5">
-          <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="container my-3">
+          <div class="row row-cols-1 row-cols-md-2 g-2">
             <ArticleItem />
             <ArticleItem />
             <ArticleItem2 />

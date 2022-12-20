@@ -1,27 +1,72 @@
+
+.d-flex{
+  width: 61%;
+}
+.img {
+  
+  display: table-cell;
+  vertical-align: middle;
+  margin: auto;
+
+}
+
 .img1 {
-    border: 1px solid #e2c93c;
-    border-radius: 15px;
-    padding: 5px;
-    width: 150px;
-  }
-  .img2 {
-    border: 1px solid #0097ee;
-    border-radius: 15px;
-    padding: 5px;
-    width: 150px;
-  }
-  .button1 {
-    background-color: #e2c93c;
-    font-size: 25px;
-    border-radius: 10px;
-  }
-  .button2 {
-    background-color: #e2e2e2;
-    font-size: 25px;
-    border-radius: 10px;
-  }
-  .button3 {
-    background-color: #ffffff;
-    font-size: 25px;
-    border-radius: 10px;
-  }
+  border-radius: 20px;
+}
+
+.prix {
+  margin-bottom: 2px;
+  font-size: 18px;
+  margin-top: 3px;
+}
+
+.titre {
+  font-size: 15px;
+  line-height: 16px;
+}
+
+.butt2 {
+  border-radius: 15px;
+  background: hsl(220, 100%, 90%);
+  width: 99%;
+}
+
+.butt2:hover {
+  border-radius: 15px;
+  background-color: #0479cc;
+}
+
+.butt1 {
+  border-radius: 15px;
+  background: hsl(210, 100%, 90%);
+  width: 99%;
+}
+
+.butt1:hover {
+  border-radius: 15px;
+  background-color: #21a0fa;
+}
+
+.butt3 {
+  border-radius: 15px;
+  background-color: hsl(200, 100%, 90%);
+  width: 99%;
+  height: 95%;
+}
+
+.butt3:hover {
+  border-radius: 15px;
+  background: hsl(205, 96%, 70%);
+
+}
+
+.v {
+  border-radius: 20px;
+  margin-top: 7px;
+  margin-right: 0px;
+  margin-bottom: 7px;
+  margin-left: 4px;
+  display: table;
+  overflow: hidden;
+  width: 99%;
+}
