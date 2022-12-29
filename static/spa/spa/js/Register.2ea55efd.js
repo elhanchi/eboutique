@@ -1,1 +1,0 @@
-import{_ as e}from"./AuthHelper.vue_vue_type_script_setup_true_lang.f87d99c5.js";import{d as a,c as t,a as o,b as s,o as r}from"./index.9672c944.js";const n=s("h1",null," register page",-1),l=a({__name:"Register",setup(c){return(_,i)=>(r(),t("div",null,[n,o(e)]))}});export{l as default};
